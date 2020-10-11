@@ -1,0 +1,30 @@
+{
+  "name": "hyper-theme-delirium",
+  "version": "0.1.0",
+  "description": "Delirium Dark Theme for Hyper Term",
+  "license": "MIT",
+  "author": "mr4torr",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr4torr/hyper-theme-delirium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mr4torr/hyper-theme-delirium/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/mr4torr/hyper-theme-delirium#readme",
+  "keywords": [
+    "delirium",
+    "theme",
+    "dark",
+    "hyper-term",
+    "hyper-term-theme",
+    "hyper-term-plugin"
+  ]
+}
