@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/icon.png" />
+  <img src=".github/icon.png" style="width:150px;" />
 </p>
 
 # Delirium Dark Theme for Hyper Term

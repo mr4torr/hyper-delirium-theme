@@ -1,6 +1,6 @@
 {
   "name": "hyper-theme-delirium",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Delirium Dark Theme for Hyper Term",
   "license": "MIT",
   "author": "mr4torr",
@@ -23,8 +23,7 @@
     "delirium",
     "theme",
     "dark",
-    "hyper-term",
-    "hyper-term-theme",
-    "hyper-term-plugin"
+    "hyper-plugin",
+    "hyper-theme",
   ]
 }
