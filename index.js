@@ -35,6 +35,7 @@ const BLUE = "#84B0D8";
 const CYAN = "#C8BDDE";
 const MAGENTA = "#56b6c2";
 const GRAY = "#787D85";
+const BLACK = "#1E262C";
 const WHITE = "#EEEEEE";
 const GRAYSCALE = "#787D85";
 
@@ -46,7 +47,7 @@ const TAB_TEXT_COLOR = FOREGROUND;
 const TAB_BORDER_ACTIVE_COLOR = "#FFAE57";
 
 const colors = {
-  black: BACKGROUND,
+  black: BLACK,
   red: RED,
   green: GREEN,
   yellow: YELLOW,
@@ -54,6 +55,7 @@ const colors = {
   magenta: MAGENTA,
   cyan: CYAN,
   white: WHITE,
+  lightWhite: "#FFFFFF",
   lightBlack: GRAY,
   lightRed: RED,
   lightGreen: GREEN,
