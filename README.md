@@ -5,7 +5,7 @@
 # Delirium Dark Theme for Hyper Term
 
 <p align="center">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/hyper-theme-delirium.svg">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/hyper-delirium-theme.svg">
     <a href="https://www.linkedin.com/in/mailontorres/">
         <img alt="Made by Mailon Torres" src="https://img.shields.io/badge/made%20by-mr4torr-%2304D361">
     </a>
@@ -20,23 +20,22 @@
 - Use the following command to install the theme.
 
 ```bash
-$ hyper install hyper-theme-delirium
+$ hyper install hyper-delirium-theme
 ```
 
 ### Manual installation
 
 1. Open Hyper preferences with `Cmd +` or using the menu `File/Edit/Preferences`.
-2. Update your list of plugins to include `hyper-theme-delirium`, like this:
+2. Update your list of plugins to include `hyper-delirium-theme`, like this:
 
 ```javascript
-  plugins: [
-    "hyper-theme-delirium"
-  ]
+plugins: ["hyper-delirium-theme"];
 ```
 
 3. Fully reload Hyper (`Cmd + Shift + R`)
 
 ## Configuration
+
 Delirium Hyper Theme is meant to be used as is, but if you feel like you want to
 customize it even further you can use the following configurations.
 
@@ -69,7 +68,8 @@ customize it even further you can use the following configurations.
 
 ### 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/mr4torr/hyper-theme-delirium/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/mr4torr/hyper-delirium-theme/issues).
+
 - Make a fork;
 - Create a branck with your feature: `git checkout -b awesome-feature`;
 - Commit changes: `git commit -m 'feat: My awesome feature'`;

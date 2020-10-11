@@ -25,7 +25,7 @@
 "use strict";
 
 const BORDER = "#363F47";
-const BACKGROUND = "#263038";
+const BACKGROUND = "#232C33";
 const FOREGROUND = "#EDF1F2";
 
 const RED = "#F07076";
