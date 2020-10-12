@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/icon.png" style="width:150px;" />
+  <img src="https://raw.githubusercontent.com/mr4torr/hyper-delirium-theme/master/assets/icon.png" style="width:150px;" />
 </p>
 
 # Delirium Dark Theme for Hyper Term
@@ -12,8 +12,8 @@
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-<img src=".github/cover.png"/>
-<img src=".github/theme.png"/>
+<img src="https://raw.githubusercontent.com/mr4torr/hyper-delirium-theme/master/assets/cover.png"/>
+<img src="https://raw.githubusercontent.com/mr4torr/hyper-delirium-theme/master/assets/theme.png"/>
 
 ### 🚀 Installation
 
