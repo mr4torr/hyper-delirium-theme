@@ -121,8 +121,8 @@ exports.decorateConfig = (config) => {
       ::selection {
         background: #9198A2 !important;
       }
-
       .hyper_main {
+        background: ${BACKGROUND};
         border: none !important;
       }
       .splitpane_divider {
