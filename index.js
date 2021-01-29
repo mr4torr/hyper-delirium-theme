@@ -25,22 +25,22 @@
 "use strict";
 
 const colors = {
-  black: "#7f7f7f",
+  black: "#787D85",
   red: "#F07076",
   green: "#a9cfa4",
   yellow: "#ffe2a9",
   blue: "#6699cc",
   magenta: "#C8BDDE",
   cyan: "#5fb3b3",
-  white: "#d4d4d4",
-  lightBlack: "#7f7f7f",
+  white: "#d7dae0",
+  lightBlack: "#787D85",
   lightRed: "#F07076",
   lightGreen: "#a9cfa4",
   lightYellow: "#ffe2a9",
   lightBlue: "#6699cc",
   lightMagenta: "#5fb3b3",
   lightCyan: "#C8BDDE",
-  lightWhite: "#d4d4d4",
+  lightWhite: "#d7dae0",
 
   colorCubes: "rgba(255,226,169,0.8)",
   grayscale: "#787D85",
