@@ -25,31 +25,31 @@
 "use strict";
 
 const colors = {
-  black: "#1E262C",
-  white: "#EEEEEE",
+  black: "#7f7f7f",
   red: "#F07076",
-  green: "#98c379",
-  yellow: "#e5c07b",
-  blue: "#84B0D8",
-  magenta: "#56b6c2",
-  cyan: "#C8BDDE",
+  green: "#a9cfa4",
+  yellow: "#ffe2a9",
+  blue: "#6699cc",
+  magenta: "#C8BDDE",
+  cyan: "#5fb3b3",
+  white: "#d4d4d4",
+  lightBlack: "#7f7f7f",
+  lightRed: "#F07076",
+  lightGreen: "#a9cfa4",
+  lightYellow: "#ffe2a9",
+  lightBlue: "#6699cc",
+  lightMagenta: "#5fb3b3",
+  lightCyan: "#C8BDDE",
+  lightWhite: "#d4d4d4",
 
-  lightBlack: "#8E949E",
-  lightWhite: "#FFFFFF",
-  lightRed: "#FF9197",
-  lightGreen: "#ABDB88",
-  lightYellow: "#FFD68A",
-  lightBlue: "#94C5F2",
-  lightMagenta: "#60CDDB",
-  lightCyan: "#DFD2F7",
-
-  colorCubes: "#98c379",
+  colorCubes: "rgba(255,226,169,0.8)",
   grayscale: "#787D85",
 };
 
 const BORDER = "#363F47";
 const BACKGROUND = "#263038";
 const FOREGROUND = "#EDF1F2";
+const SELECTION_COLOR = 'rgba(145,152,162,0.2)';
 const TAB_BORDER_COLOR = "#343D4A";
 
 const CURSOR_COLOR = colors.colorCubes;
@@ -103,11 +103,12 @@ exports.decorateConfig = (config) => {
     backgroundColor: BACKGROUND,
     borderColor: BORDER_COLOR,
     cursorColor: CURSOR_COLOR,
+    selectionColor: SELECTION_COLOR,
     colors,
     termCSS: `
           ${config.termCSS || ""}
           ::selection {
-              background: #9198A2 !important;
+              background: ${SELECTION_COLOR} !important;
           }
           x-screen x-row {
               font-variant-ligatures: initial;
@@ -119,7 +120,7 @@ exports.decorateConfig = (config) => {
     css: `
       ${config.css || ""}
       ::selection {
-        background: #9198A2 !important;
+        background: ${SELECTION_COLOR} !important;
       }
       .hyper_main {
         background: ${BACKGROUND};
@@ -146,7 +147,6 @@ exports.decorateConfig = (config) => {
         position: absolute;
         top: 0;
         left: -77px;
-        width: 77px;
         height: 100%;
         background-color: rgba(0,0,0,0.1);
       }
